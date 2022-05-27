@@ -17,7 +17,7 @@
 
 import numpy as np
 
-from math import ceil, sqrt
+from math import ceil, sqrt, pow
 
 #-----------------------------------------------------------------------------#
 class Constraint(object):

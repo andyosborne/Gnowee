@@ -30,7 +30,7 @@ import numpy as np
 from scipy.special import gamma
 from pyDOE import lhs
 from numpy.random import rand, randn, choice
-from GnoweeUtilities import Switch
+from .GnoweeUtilities import Switch
 
 #------------------------------------------------------------------------------#
 def initial_samples(lb, ub, method, numSamp):
@@ -128,9 +128,9 @@ def initial_samples(lb, ub, method, numSamp):
                                                        range(len(tmp[:, 0]))])
             break
 
-        if case():
-            print "Somehow you evaded my assert statement - good job!", \
-                  " However, you still need to use a valid method string."
+#        if case():
+#            print "Somehow you evaded my assert statement - good job!", \
+#                  " However, you still need to use a valid method string."
 
     return s
 

@@ -18,8 +18,8 @@
 import numpy as np
 import copy as cp
 
-from Constraints import Constraint
-from ObjectiveFunction import ObjectiveFunction
+from .Constraints import Constraint
+from .ObjectiveFunction import ObjectiveFunction
 
 #------------------------------------------------------------------------------#
 class Parent(object):

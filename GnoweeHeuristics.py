@@ -30,8 +30,8 @@ import copy as cp
 
 from math import sqrt
 from numpy.random import rand, permutation
-from Sampling import levy, tlf, initial_samples
-from GnoweeUtilities import ProblemParameters, Event
+from .Sampling import levy, tlf, initial_samples
+from .GnoweeUtilities import ProblemParameters, Event
 
 #------------------------------------------------------------------------------#
 class GnoweeHeuristics(ProblemParameters):
